@@ -1,0 +1,154 @@
+/* Dark Theme Variables */
+[data-theme="dark"] {
+    --primary-color: #61dafb;
+    --secondary-color: #bb86fc;
+    --accent-color: #ff7597;
+    --text-color: #e1e1e1;
+    --bg-color: #121212;
+    --nav-bg: rgba(18, 18, 18, 0.95);
+    --card-bg: #1e1e1e;
+}
+
+/* Dark Theme Specific Styles */
+[data-theme="dark"] body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .navbar {
+    background-color: var(--nav-bg);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="dark"] .logo a {
+    color: var(--primary-color);
+}
+
+[data-theme="dark"] .nav-links a {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .nav-links a:hover,
+[data-theme="dark"] .nav-links a.active {
+    color: var(--primary-color);
+}
+
+/* Hero Section Dark Styles */
+[data-theme="dark"] .hero {
+    background: linear-gradient(135deg, var(--bg-color) 0%, #1a1a1a 100%);
+}
+
+[data-theme="dark"] .hero-content h1 {
+    color: var(--text-color);
+}
+
+/* Button Dark Styles */
+[data-theme="dark"] .btn.primary {
+    background-color: var(--primary-color);
+    color: #000;
+}
+
+[data-theme="dark"] .btn.secondary {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+/* About Section Dark Styles */
+[data-theme="dark"] .skill-category {
+    background-color: var(--card-bg);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="dark"] .skill-category span {
+    background-color: var(--secondary-color);
+    color: #000;
+}
+
+/* Projects Section Dark Styles */
+[data-theme="dark"] .projects {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+[data-theme="dark"] .project-card {
+    background-color: var(--card-bg);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="dark"] .filter-btn {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .filter-btn.active {
+    color: var(--primary-color);
+}
+
+/* Contact Form Dark Styles */
+[data-theme="dark"] .contact-form input,
+[data-theme="dark"] .contact-form textarea {
+    background-color: var(--card-bg);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .contact-form input:focus,
+[data-theme="dark"] .contact-form textarea:focus {
+    border-color: var(--primary-color);
+}
+
+/* Social Links Dark Styles */
+[data-theme="dark"] .social-links a {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .social-links a:hover {
+    color: var(--primary-color);
+}
+
+/* Footer Dark Styles */
+[data-theme="dark"] footer {
+    background-color: #000;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Code Snippet Dark Styles */
+[data-theme="dark"] pre code {
+    background-color: var(--card-bg);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Loading Spinner Dark Styles */
+[data-theme="dark"] .loading-spinner {
+    border-color: #333;
+    border-top-color: var(--primary-color);
+}
+
+/* Modal Dark Styles */
+[data-theme="dark"] .modal {
+    background-color: var(--card-bg);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Scrollbar Dark Styles */
+[data-theme="dark"] ::-webkit-scrollbar {
+    width: 10px;
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-track {
+    background: var(--bg-color);
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-thumb {
+    background: var(--secondary-color);
+    border-radius: 5px;
+}
+
+/* Selection Dark Styles */
+[data-theme="dark"] ::selection {
+    background-color: var(--primary-color);
+    color: #000;
+}
+
+/* Image Dark Mode Adjustments */
+[data-theme="dark"] img {
+    filter: brightness(0.8) contrast(1.2);
+}
